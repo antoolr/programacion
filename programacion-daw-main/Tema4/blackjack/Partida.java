@@ -14,6 +14,10 @@ public class Partida {
     private int victoriasCrupier = 0;
 
     // Método principal para iniciar la partida
+    public static void main(String[] args) {
+        Partida partida = new Partida();
+        partida.iniciar();
+    }
     public void iniciar() {
         Scanner sc = new Scanner(System.in);
 
@@ -39,7 +43,7 @@ public class Partida {
             crupier.limpiarMano();
 
             // Pedir al jugador cuánto desea apostar
-            System.out.println("Tienes " + jugador.fondos + "€. ¿Cuánto deseas apostar?");
+            System.out.println("Tienes " + jugador.fondos + ". ¿Cuánto deseas apostar?");
             int apuesta = sc.nextInt();
 
             // Validar que la apuesta sea correcta (no negativa ni superior a los fondos)
