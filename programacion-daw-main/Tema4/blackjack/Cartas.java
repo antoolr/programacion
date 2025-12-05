@@ -1,4 +1,4 @@
-package Clases.BlackJack;
+package Tema4.blackjack;
 
 public class Cartas {
 
