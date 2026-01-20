@@ -1,4 +1,4 @@
-package Tema5.ProyectoHeroes;
+package Tema5.Actividades.ProyectoHeroes;
 
 import java.io.FileReader;
 import java.util.*;
