@@ -1,5 +1,7 @@
 package Tema5.Proyecto;
 
-public class identificacion {
+public interface identificacion {
     
+    public String getIdentificador();
+    void setIdentificador(String identificador);
 }
