@@ -6,7 +6,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-public class Actividad14 {
+public class Practica14 {
     public static void main(String[] args) throws Exception {
         JSONParser parser = new JSONParser();
         Map<String, List<Heroe>> mapa = new HashMap<>();
