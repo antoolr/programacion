@@ -2,6 +2,7 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "Tema5/json-simple-1.1.1.jar",
-        "Tema5/ProyectoHeroes/lib/json-simple-1.1.1.jar"
+        "Tema5/ProyectoHeroes/lib/json-simple-1.1.1.jar",
+        "REjerciciosT5/json-simple-1.1.1.jar"
     ]
 }
