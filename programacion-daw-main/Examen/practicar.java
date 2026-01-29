@@ -1,19 +1,7 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+package Examen;
 
 public class practicar {
     public static void main(String[] args) {
-
         
     }
 }
-
-
-
-
-
-    
-
-    
-
-
