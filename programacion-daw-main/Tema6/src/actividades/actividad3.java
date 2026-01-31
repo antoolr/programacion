@@ -1,10 +1,12 @@
-package Tema6.actividades;
+package Tema6.src.actividades;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
+import Tema6.src.actividades.conexiones.conexionact;
 
 public class actividad3 {
     public static void main(String[] args) {

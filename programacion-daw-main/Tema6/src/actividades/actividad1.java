@@ -1,6 +1,9 @@
-package Tema6.actividades;
+package Tema6.src.actividades;
 
 import java.sql.Statement;
+
+import Tema6.src.actividades.conexiones.conexionact;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
