@@ -1,27 +1,37 @@
 package Tema5.Actividades;
 
-//InputMismatchException en Java
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.InputMismatchException;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Actividad2 {
-    public static void main(String[] args) throws IOException {
-    File archivo = null;
-    FileReader lector = null;
-    BufferedReader buffer = null;
+    public static void main(String[] args) {
 
-    archivo = new File ("./Tema5/Actividades/numeros.txt");
-    lector = new FileReader(archivo);
-    buffer = new BufferedReader(lector);
+        int suma = 0;
+        int contador = 0;
 
-    String linea = buffer.readLine();
-    System.out.println(linea);
-    String[] numeros = linea.split(",");
-    System.out.println(numeros.length);
-    
-}
+        try {
+            Scanner sc = new Scanner(new File("Tema5/Actividades/numeros.txt"));
+            sc.useDelimiter(";"); // ← separador por punto y coma
+
+            while (sc.hasNextInt()) {
+                int num = sc.nextInt();
+                suma += num;
+                contador++;
+            }
+
+            sc.close();
+
+            if (contador > 0) {
+                double media = (double) suma / contador;
+                System.out.println("Suma: " + suma);
+                System.out.println("Media: " + media);
+            } else {
+                System.out.println("El archivo no contiene números.");
+            }
+
+        } catch (FileNotFoundException e) {
+            System.out.println("No se encontró el archivo.");
+        }
+    }
 }

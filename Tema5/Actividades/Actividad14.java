@@ -1,9 +1,37 @@
 package Tema5.Actividades;
 
+
+import java.util.HashMap;
 import java.util.Map;
 
-import Tema4.relacionT4.ejercicio4.marca;
-
 public class Actividad14 {
-    //Dada una lista de marcas de coches, crea un programa que usa hashMap<String,Integer>, donde Integer tenga las veces que aparece cada marca en la lista. Hazlo usando Map usando sus métodos containsKey, get y put.
+
+    public static void main(String[] args) {
+
+        // Lista de marcas de ejemplo
+        String[] marcas = {
+            "BMW", "Audi", "Seat", "BMW", "Toyota", "Seat", "Audi", "BMW"
+        };
+
+        // Mapa para contar apariciones
+        Map<String, Integer> contador = new HashMap<>();
+
+        for (String marca : marcas) {
+
+            if (contador.containsKey(marca)) {
+                // Si ya existe, sumamos 1
+                contador.put(marca, contador.get(marca) + 1);
+            } else {
+                // Si no existe, la añadimos con valor 1
+                contador.put(marca, 1);
+            }
+        }
+
+        // Mostrar resultados
+        System.out.println("Apariciones de cada marca:");
+        for (String marca : contador.keySet()) {
+            System.out.println(marca + " " + contador.get(marca));
+        }
+    }
 }
+

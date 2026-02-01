@@ -1,4 +1,4 @@
-package Tema5.Actividad16;
+package Tema5.Actividades.Actividad16;
 
 public class actividad16 {
     public static void main(String[] args) {
