@@ -3,6 +3,7 @@ package Tema6.src.actividades.ActividadMVC1;
 import java.util.Scanner;
 
 import Tema6.src.actividades.ActividadMVC1.Controlador.ControladorAlumno;
+import Tema6.src.actividades.ActividadMVC1.Controlador.ControladorAsignatura;
 import Tema6.src.actividades.ActividadMVC1.Controlador.ControladorProfesor;
 
 public class ejecutar {
@@ -19,6 +20,9 @@ public class ejecutar {
             System.out.println("-------------");
             System.out.println("3. Crear alumno");
             System.out.println("4. Mostrar alumno");
+             System.out.println("-------------");
+            System.out.println("5. Crear asignatura");
+            System.out.println("6. Mostrar asignatura");
             System.out.println("0. Salir");
             System.out.print("Opción: ");
             opcion = Integer.parseInt(sc.nextLine());
@@ -36,6 +40,10 @@ public class ejecutar {
                 case 4:
                     ControladorAlumno.mostrarAlumno();
                     break;
+                case 5:
+                    ControladorAsignatura.crearAsignatura();
+                case 6: 
+                    ControladorAsignatura.mostrarAsignatura();
 
                 case 0:
                     System.out.println("Saliendo del programa...");

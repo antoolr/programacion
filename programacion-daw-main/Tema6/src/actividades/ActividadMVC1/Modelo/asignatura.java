@@ -1,14 +1,16 @@
 package Tema6.src.actividades.ActividadMVC1.Modelo;
 
 public class asignatura {
-    private int codigo, numero_horas;
+    private int codigo;
+    private int numeroHoras;
     private String nombre;
     
     public asignatura(int codigo, int numero_horas, String nombre) {
         this.codigo = codigo;
-        this.numero_horas = numero_horas;
+        this.numeroHoras = numero_horas;
         this.nombre = nombre;
     }
+    
     public int getCodigo() {
         return codigo;
     }
@@ -16,10 +18,10 @@ public class asignatura {
         this.codigo = codigo;
     }
     public int getNumero_horas() {
-        return numero_horas;
+        return numeroHoras;
     }
-    public void setNumero_horas(int numero_horas) {
-        this.numero_horas = numero_horas;
+    public void setNumero_horas(int numeroHoras) {
+        this.numeroHoras = numeroHoras;
     }
     public String getNombre() {
         return nombre;
