@@ -1,4 +1,4 @@
-package Tema6.src.actividades.actividadAcademia;
+package actividades.actividadAcademia;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,8 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import Tema6.src.actividades.conexiones.conexionact;
-import clases.src.fecha;
+import actividades.conexiones.conexionact;
 
 public class alumno {
     public static void insertarAlumno(int id, String nif, String grupo, String nombre, String apellido1,

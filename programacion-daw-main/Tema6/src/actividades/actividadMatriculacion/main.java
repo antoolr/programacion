@@ -1,4 +1,4 @@
-package Tema6.src.actividades.actividadMatriculacion;
+package actividades.actividadMatriculacion;
 
 public class main {
     public static void main(String[] args) {

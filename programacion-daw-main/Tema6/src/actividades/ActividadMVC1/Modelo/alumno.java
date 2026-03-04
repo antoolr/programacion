@@ -1,4 +1,4 @@
-package Tema6.src.actividades.ActividadMVC1.Modelo;
+package actividades.ActividadMVC1.Modelo;
 
 public class alumno {
     private String nombre, apellido1, apellido2, telefono, fecha_nacimiento;

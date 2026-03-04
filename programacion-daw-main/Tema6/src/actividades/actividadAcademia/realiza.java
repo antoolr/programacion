@@ -1,4 +1,4 @@
-package Tema6.src.actividades.actividadAcademia;
+package actividades.actividadAcademia;
 
 public class realiza{
 

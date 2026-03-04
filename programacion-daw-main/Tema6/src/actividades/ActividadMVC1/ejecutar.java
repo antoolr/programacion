@@ -1,10 +1,10 @@
-package Tema6.src.actividades.ActividadMVC1;
+package actividades.ActividadMVC1;
 
 import java.util.Scanner;
 
-import Tema6.src.actividades.ActividadMVC1.Controlador.ControladorAlumno;
-import Tema6.src.actividades.ActividadMVC1.Controlador.ControladorAsignatura;
-import Tema6.src.actividades.ActividadMVC1.Controlador.ControladorProfesor;
+import actividades.ActividadMVC1.Controlador.ControladorAlumno;
+import actividades.ActividadMVC1.Controlador.ControladorAsignatura;
+import actividades.ActividadMVC1.Controlador.ControladorProfesor;
 
 public class ejecutar {
 

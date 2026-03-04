@@ -1,10 +1,10 @@
-package Tema6.src.actividades.actividadER;
+package actividades.actividadER;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import Tema6.src.actividades.conexiones.conexionact;
+import actividades.conexiones.conexionact;
 
 public class CrearTablas {
    public static void main(String[] args) {

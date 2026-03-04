@@ -1,7 +1,7 @@
-package Tema6.src.actividades.ActividadMVC1.Controlador;
+package actividades.ActividadMVC1.Controlador;
 
-import Tema6.src.actividades.ActividadMVC1.Modelo.alumno;
-import Tema6.src.actividades.ActividadMVC1.Vista.vistaAlumno;
+import actividades.ActividadMVC1.Modelo.alumno;
+import actividades.ActividadMVC1.Vista.vistaAlumno;
 
 public class ControladorAlumno {
 

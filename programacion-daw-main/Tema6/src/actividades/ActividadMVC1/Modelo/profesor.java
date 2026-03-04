@@ -1,4 +1,4 @@
-package Tema6.src.actividades.ActividadMVC1.Modelo;
+package actividades.ActividadMVC1.Modelo;
 
 public class profesor {
     private String nombre, apellido1, apellido2, especialidad, telefono;

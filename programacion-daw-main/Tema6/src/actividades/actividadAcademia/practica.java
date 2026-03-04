@@ -1,10 +1,10 @@
-package Tema6.src.actividades.actividadAcademia;
+package actividades.actividadAcademia;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import Tema6.src.actividades.conexiones.conexionact;
+import actividades.conexiones.conexionact;
 import java.sql.Statement;
 
 public class practica {

@@ -1,8 +1,8 @@
-package Tema6.src.actividades.ActividadMVC1.Vista;
+package actividades.ActividadMVC1.Vista;
 
 import java.util.Scanner;
 
-import Tema6.src.actividades.ActividadMVC1.Modelo.alumno;
+import actividades.ActividadMVC1.Modelo.alumno;
 
 public class vistaAlumno {
 

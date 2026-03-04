@@ -1,4 +1,4 @@
-package Tema6.src.actividades.actividadER;
+package actividades.actividadER;
 
 public class piezaDAW {
     

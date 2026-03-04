@@ -1,6 +1,6 @@
-package Tema6.src.actividades.actividadFormacion;
+package actividades.actividadFormacion;
 import java.sql.*;
-import Tema6.src.actividades.conexiones.conexionact;
+import actividades.conexiones.conexionact;
 
 public class curso {
 

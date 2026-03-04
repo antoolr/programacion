@@ -1,4 +1,4 @@
-package Tema6.src.actividades.actividadLibreria;
+package actividades.actividadLibreria;
 
 public class main {
     public static void main(String[] args) {
