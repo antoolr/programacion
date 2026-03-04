@@ -1,4 +1,4 @@
-package modelo;
+package src.modelo;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,17 +10,22 @@ import java.util.List;
 
 public class ProveedorDAO {
     public void insertar(int codigo, String direccion, String ciudad, String provincia) {
-        String sql = "INSERT INTO proveedor VALUES (?, ?, ?, ?)";
-        try (Connection conn = Conexion.getConnection(); PreparedStatement ps = conn.prepareStatement(sql)) {
-            ps.setInt(1, codigo);
-            ps.setString(2, direccion);
-            ps.setString(3, ciudad);
-            ps.setString(4, provincia);
-            ps.executeUpdate();
-        } catch (SQLException e) {
-            System.err.println(e.getMessage());
-        }
+    String sql = "INSERT INTO proveedor (codigo, direccion, ciudad, provincia) VALUES (?, ?, ?, ?)";
+    
+    try (Connection conn = Conexion.getConnection(); 
+         PreparedStatement ps = conn.prepareStatement(sql)) {
+        
+        ps.setInt(1, codigo);        // Primer ?: codigo
+        ps.setString(2, direccion);  // Segundo ?: direccion
+        ps.setString(3, ciudad);     // Tercer ?: ciudad
+        ps.setString(4, provincia);   // Cuarto ?: provincia
+        
+        ps.executeUpdate();
+        
+    } catch (SQLException e) {
+        System.err.println("Error en DAO Insertar: " + e.getMessage());
     }
+}
 
     public List<Proveedor> listar() {
 
